@@ -32,7 +32,7 @@ fi
 cd "$BUILD_DIR"
 mkdir -p "$VENDOR_DIR"
 cd "$VENDOR_DIR"
-mkdir -p rclone
+mkdir -p rclone-v1.51.0-linux-amd64
 cd rclone-v1.51.0-linux-amd64
 cp "$CACHE_DIR/$FILE" .
 unzip -qqj "$FILE"
