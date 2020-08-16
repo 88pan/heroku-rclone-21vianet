@@ -12,7 +12,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 VENDOR_DIR="vendor"
 FILE="rclone.zip"
-DOWNLOAD_URL="https://pan.88pan.cn/api/files/7/blog/soft/rclone.zip"
+DOWNLOAD_URL="https://github.com/xinxin8816/heroku-aria2c-21vianet/raw/master/rclone.zip"
 
 mkdir -p "$CACHE_DIR"
 
