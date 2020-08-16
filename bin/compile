@@ -11,8 +11,8 @@ echo "-----> Installing rclone"
 BUILD_DIR=$1
 CACHE_DIR=$2
 VENDOR_DIR="vendor"
-FILE="rclone.zip"
-DOWNLOAD_URL="https://github.com/xinxin8816/heroku-aria2c-21vianet/raw/master/rclone.zip"
+FILE="rclone-v1.51.0-linux-amd64.zip"
+DOWNLOAD_URL="https://github.com/nicetea11/rclone-21-copy/releases/download/21rclone/rclone-v1.51.0-linux-amd64.zip"
 
 mkdir -p "$CACHE_DIR"
 
