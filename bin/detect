@@ -1,5 +1,5 @@
 #!/bin/sh
 
 # this pack is valid for all apps
-echo "xinxin8816-rclone-21vianet"
+echo "heroku-rclone-21vianet"
 exit 0
