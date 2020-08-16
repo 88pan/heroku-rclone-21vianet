@@ -6,11 +6,11 @@ Using Rclone with 21vianet mod and Aria2, even UNRAR easily on Heroku.<br>
 1. Create new app
 
 ```
-heroku create myapp -b https://github.com/88pan/heroku-rclone-21vianet.git
+heroku create myapp -b https://github.com/nicetea11/heroku-rclone-21vianet.git
 heroku git:clone -a myapp
 
 # or useing existed app
-heroku buildpacks:set https://github.com/88pan/heroku-rclone-21vianet.git -a myapp
+heroku buildpacks:set https://github.com/nicetea11/heroku-rclone-21vianet.git -a myapp
 ```
 
 2. Setup Rclone by following [Rclone Docs](https://rclone.org/docs/).<br> 
